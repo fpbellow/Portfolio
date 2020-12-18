@@ -1,0 +1,8 @@
+.main-nav {
+    background: rgba(0, 0, 0, 1.0);
+    position: sticky;
+    min-height: 60px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
