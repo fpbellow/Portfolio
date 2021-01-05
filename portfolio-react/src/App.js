@@ -3,11 +3,11 @@ import React from "react";
 import TopNav from "./Components/NavBar/NavBar";
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import AboutMe from "./Components/About Me/AboutMe";
-import Resume from "./Components/Resume/Resume";
+import background from "./Resources/adobestockrocket.png"
 
 function App() {
   return (
-    <div className={"main-background"}>
+    <div className={"main-background"} style={{backgroundImage: `url(${background}`}}>
       <BrowserRouter>
         <TopNav />
         <Switch>
@@ -15,7 +15,7 @@ function App() {
             <Redirect to={"/aboutMe"} />
           </Route>
           <Route exact path={"/aboutMe"} component={AboutMe} />
-          <Route exact path={"/Resume"} render={()=> <PDFViewer backend = {PDJSBackend} src='./Resources/FBresume.pdf'/> } />
+          <Route exact path={"/Resume"}  />
         </Switch>
       </BrowserRouter>
     </div>
