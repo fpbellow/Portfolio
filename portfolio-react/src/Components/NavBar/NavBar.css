@@ -1,8 +1,45 @@
 .main-nav {
     background: rgba(0, 0, 0, 1.0);
     position: sticky;
+    top:0;
     min-height: 60px;
+    width: 100%;
     padding-left: 15px;
     padding-top: 10px;
-}
+    display:flex;
+    flex-direction: row;
+    z-index: 9;
+    border-bottom: 2px solid #9a9a9a;
 
+}
+.hvr-under-left{
+    margin-top: 20px;
+    position: relative;
+}
+.hvr-under-left:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.hvr-under-left:hover:before{
+    visibility: visible;
+    width: 100%;
+}
+.hvr-under-left:hover{
+    cursor: pointer;
+}
+.btn-group-cont{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:30%;
+    margin-left: 50px;
+}

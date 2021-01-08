@@ -2,6 +2,7 @@
 *{
 font-family: 'Noto Sans JP', sans-serif;
     color: whitesmoke;
+    overflow-x:hidden ;
   
 }
 .main-background {
