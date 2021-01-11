@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import TopNav from "./Components/NavBar/NavBar";
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import AboutMe from "./Components/About Me/AboutMe";
 import background from "./Resources/adobestockrocket.png";
 import Resume from "./Components/Resume/Resume";
@@ -13,7 +13,7 @@ function App() {
       className={"main-background"}
       style={{ backgroundImage: `url(${background}` }}
     >
-      <BrowserRouter>
+      <HashRouter>
         <TopNav />
         <Switch>
           <Route exact path="/">
@@ -23,7 +23,7 @@ function App() {
           <Route exact path={"/Resume"} component={Resume} />
           <Route exact path={"/Projects"} component={Projects} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
