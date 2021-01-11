@@ -21,11 +21,11 @@ const Projects = () => {
           <strong>Description:</strong>
         </p>
         <p>
-          This was my first project going into fullstack web development. It was
-          also my first experience working with Javascript and its frameworks.
-          Tapster provided users a way to search for mixers by their name or
-          their required ingredients. The user would then be provided the recipe
-          to make the drink.
+          Created for my Sophmore Software Engineering course, this was my first
+          project in fullstack web development. It was also my first experience
+          working with Javascript and its frameworks. Tapster provided users a
+          way to search for mixers by their name or their required ingredients.
+          The user would then be provided the recipe to make the drink.
         </p>
         <p style={{ marginBottom: "0px" }}>
           <strong>The Process:</strong>
@@ -39,15 +39,64 @@ const Projects = () => {
         <h1 style={{ color: "deepskyblue", marginTop: "36px" }}>
           Discord C# Chat Bot
         </h1>
+        <p style={{ marginBottom: "0px" }}>
+          <strong>Description:</strong>
+        </p>
         <p>
           As an introduction to C# and .NET Core I wrote a chat bot for a
           Discord bot. I used this also as practice to further work with
           additional APIs such as additional features from Discord or external
           sites like Twitch or Youtube integration with the bot.
         </p>
+        <p style={{ marginBottom: "0px" }}>
+          <strong>The Process:</strong>
+        </p>
+        <p>
+          The bot was mostly built with the Discord.NET library to make calls
+          with the Discord API. The bot handles various commands differing from
+          entertainment to server management. The bot has Twitch.tv integration
+          using the TwitchLib C# library.
+        </p>
         <h1 style={{ color: "deepskyblue", marginTop: "36px" }}>
           Paystar Admin Portal
         </h1>
+        <p style={{ marginBottom: "0px" }}>
+          <strong>Description:</strong>
+        </p>
+        <p>
+          As my Senior Capstone project I worked in a group of six over the
+          course of three months with two week sprints to build a prototype
+          admin portal for Paystar. This was my first experience working in
+          Entity Framework Core and Identity.
+        </p>
+        <p style={{ marginBottom: "0px" }}>
+          <strong>The Client:</strong>
+        </p>
+        <p>
+          Our Client for this project was Brandon Cornett, CEO of Elevator3 and
+          CTO of Paystar. The focus of this project was to make a Admin Portal
+          CRM for Paystar, which handles payment processing for utilities,
+          government, businesses and offers custom payment integrations and
+          software development.
+        </p>
+        <p style={{ marginBottom: "0px" }}>
+          <strong>The Process:</strong>
+        </p>
+        <p>
+          The main goal for this project was to incorporate as many working
+          aspects that Paystar uses into the admin portal to offer its users a
+          central place to manage their operations. For example for contact
+          management and upkeep Paystar uses Hubspot and some of its features.
+          Therefore using Hubspots API, users would be able to gain a quick
+          summary of any Hubspot actions on the admin portal without having to
+          go to hubspot directly.
+        </p>
+        <p>
+          Most of my commitment to the project was a majority of the frontend
+          development and integrating external APIs including Hubspot and one
+          provided to us by Paystar including example clients to test payment
+          handling for the portal.
+        </p>
       </div>
       <div>
         <h1
@@ -74,6 +123,7 @@ const Projects = () => {
           <p>- EF Core / EF Core Identity</p>
           <p>- SQL</p>
           <p>- ASP.NET / .NET Core</p>
+          <p>- Jira Project Board & Issue Management</p>
         </ul>
       </div>
     </div>

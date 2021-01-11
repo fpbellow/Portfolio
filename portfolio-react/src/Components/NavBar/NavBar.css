@@ -1,4 +1,4 @@
-.main-nav {
+.main-bar {
     background: rgba(0, 0, 0, 1.0);
     position: sticky;
     top:0;
@@ -10,6 +10,21 @@
     flex-direction: row;
     z-index: 9;
     border-bottom: 2px solid #9a9a9a;
+
+}
+.ext-nav-group{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:10%;
+
+}
+.nav-groups{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:85%;
 
 }
 .hvr-under-left{
