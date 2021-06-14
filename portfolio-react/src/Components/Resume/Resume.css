@@ -1,5 +1,6 @@
 .resume-container{
     width: 100%;
     height: 1080px;
-
+    padding-bottom: 0;
+    margin-bottom: 0;
 }

@@ -5,7 +5,7 @@ const Resume = () => {
   return (
     <div>
       <iframe
-        src="https://drive.google.com/file/d/1Ti83pdS7vRrINgxMQLIStUJud9FMFXY7/preview"
+        src="https://drive.google.com/file/d/1sGX0iQqcX_fYEIX4qtbjpRGVYAPQckDa/preview"
         className={"resume-container"}
       />
     </div>
